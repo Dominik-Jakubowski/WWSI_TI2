@@ -1,0 +1,29 @@
+{
+  "name": "wwsi_ti2",
+  "version": "1.0.0",
+  "description": "Lab01 — Wypożyczalnia książek (Node.js + Express + SQLite)\r Wymagania",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dominik-Jakubowski/WWSI_TI2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Dominik-Jakubowski/WWSI_TI2/issues"
+  },
+  "homepage": "https://github.com/Dominik-Jakubowski/WWSI_TI2#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
